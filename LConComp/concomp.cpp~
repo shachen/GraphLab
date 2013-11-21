@@ -1,0 +1,8 @@
+# include <graphlab.hpp>
+//using namespace graphlab;
+
+int main(int argc, char** argv) {
+	graphlab::mpi_tools::init(argc, argv);
+	graphlab::distributed_control dc;
+
+}
